@@ -7,6 +7,9 @@ const config = {
 		adapter: adapter({
 			fallback: 'index.html'
 		}),
+		paths: {
+			base: process.env.NODE_ENV === "production" ? "/familiada" : "",
+		},
 		csp: {
 			mode: 'hash',
 			directives: {
