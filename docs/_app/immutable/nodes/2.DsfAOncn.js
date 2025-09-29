@@ -1,0 +1,1 @@
+import"../chunks/NZTpNUN0.js";import"../chunks/DuUKKl72.js";import{f as o,a as r}from"../chunks/BHeMKugy.js";var i=o('<div class="grid place-items-center text-4xl">Witamy</div>');function n(t){var a=i();r(t,a)}export{n as component};
